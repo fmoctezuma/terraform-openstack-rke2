@@ -1,0 +1,8 @@
+# Add desired configuration parameters from
+# https://docs.rke2.io/install/install_options/server_config/
+
+# Control plane wont execute regular workloads
+node-taint:
+  - "CriticalAddonsOnly=true:NoExecute"
+cni:
+  - "calico"
