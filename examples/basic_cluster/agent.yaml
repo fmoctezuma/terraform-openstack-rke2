@@ -1,0 +1,5 @@
+# Add desired configuration parameters from
+# https://docs.rke2.io/install/install_options/linux_agent_config/
+node-label:
+  - "demo=xyz"
+  - "variable=here"
